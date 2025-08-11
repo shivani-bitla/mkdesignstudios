@@ -1,0 +1,9 @@
+com\mkdesignstudios\backend\controller\ProfileController.class
+com\mkdesignstudios\backend\controller\AuthController$LoginRequest.class
+com\mkdesignstudios\backend\BackendApplication.class
+com\mkdesignstudios\backend\repository\UserProfileRepository.class
+com\mkdesignstudios\backend\model\Contact.class
+com\mkdesignstudios\backend\controller\AuthController.class
+com\mkdesignstudios\backend\controller\ContactController.class
+com\mkdesignstudios\backend\model\UserProfile.class
+com\mkdesignstudios\backend\repository\ContactRepository.class
