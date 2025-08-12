@@ -43,18 +43,6 @@ public class AuthController {
         return ResponseEntity.ok(new AuthenticationResponse(token));
     }
     
-        // Signup endpoint
-        @PostMapping("/signup")
-        public ResponseEntity<?> signup(@RequestBody UserProfile userProfile) {
-            if (userProfileRepository.findByUsername(userProfile.getUsername()).isPresent()) {
-                return ResponseEntity.badRequest().body("Username already exists");
-            }
-            // You should hash the password here in production
-            userProfileRepository.save(userProfile);
-            userProfile.setPassword(null); // Do not return password
-            return ResponseEntity.ok(userProfile);
-        }
-    
     // DTO classes
     public static class AuthenticationRequest {
         private String username;
