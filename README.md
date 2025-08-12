@@ -8,4 +8,6 @@ files location is saved and redirected to storage when required.
 Storage: Cloudflare R2 (cheap) connected.
 
 github push:
+git add .
+git commit -m "new change-"
 git push -u origin main

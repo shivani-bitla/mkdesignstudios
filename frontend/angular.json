@@ -24,14 +24,11 @@
               {
                 "glob": "**/*",
                 "input": "public",
-                "output": "/"
-              
+                "output": "public"
               },
-              {
-              "glob": "_redirects",
-              "input": "src",
-              "output": "/"
-              }
+              "src/assets",
+              "src/_redirects"
+                          
             ],
             "styles": [
               "src/styles.css"
